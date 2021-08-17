@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon newde.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "@vonage/server-sdk": "^2.10.8",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "messagebird": "^3.6.2",
+    "mongoose": "^5.12.7",
+    "npm": "^7.13.0",
+    "postmark": "^2.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
